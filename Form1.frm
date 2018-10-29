@@ -10,14 +10,17 @@ Begin VB.Form Form1
    ScaleMode       =   3  'Pixel
    ScaleWidth      =   302
    StartUpPosition =   3  'Windows Default
-   Begin Proyecto1.UserControl1 UserControl11 
+   Begin Proyecto1.ucMetroSlider UserControl11 
       Height          =   360
       Left            =   840
       TabIndex        =   0
       Top             =   240
       Width           =   1812
-      _extentx        =   3196
-      _extenty        =   1926
+      _ExtentX        =   3196
+      _ExtentY        =   1926
+      BackColor       =   -2147483635
+      ForeColor       =   -2147483630
+      Value           =   0
    End
 End
 Attribute VB_Name = "Form1"
